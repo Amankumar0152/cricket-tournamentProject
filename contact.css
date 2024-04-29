@@ -51,3 +51,14 @@ body{
     font:bold;
     color: cornflowerblue;
 }
+
+
+@media only screen and (max-width: 1080px) {
+    .image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
