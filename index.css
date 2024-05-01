@@ -51,10 +51,12 @@ header{
     margin-right: auto;
     border: 3px solid cornflowerblue;
 }
-.image h2{
+.cntext{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
     color: #25D366;
+    padding: 10px;
 }
 
 .slideshow-container {
