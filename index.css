@@ -30,6 +30,7 @@ header{
 .navbar ul li a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
+    font-weight: bold;
     color: black;
     padding: 10px;
     font-size: 26px;
@@ -124,7 +125,6 @@ header{
     padding: 5px;
 }
 .column p{
-    color: white;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -199,7 +199,7 @@ header{
         text-decoration: none;
         color: black;
         padding: 8px;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
     }
     .image img{
