@@ -7,8 +7,8 @@ header{
     font-size:4em;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    color: whitesmoke;
-    background-color: #081B31;
+    color: #081B31;
+    background-color:white;
     height: 200px;
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@ header{
 }
 .navbar{
     height: 80px;
-    background-color: #081B31;
+    background-color: white;
     text-align: center;
     display: flex;
     align-items:center;
@@ -30,7 +30,7 @@ header{
 .navbar ul li a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 10px;
     font-size: 26px;
 }
@@ -40,7 +40,7 @@ header{
 }
 .contents{
     padding: 20px;
-    background-color: #081B31;
+    background-color:white;
 }
 .image img{
     margin: 20px;
@@ -55,7 +55,7 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
-    color: #25D366;
+    color:black;
     padding: 10px;
 }
 
@@ -63,6 +63,7 @@ header{
     max-width: 80%;
     position: relative;
     margin: auto;
+    margin-bottom: 30px;
 }
 /* Styles for the slideshow images */
 .mySlides {
@@ -82,7 +83,7 @@ header{
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(38, 37, 37, 0.5);
 }
 
 .next {
@@ -108,9 +109,9 @@ header{
 
 /* Style for text container */
 .text-container {
-    background-color:#081B31;
+    background-color:#bcd6f4;
     padding: 10px;
-    color: white;
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* font-size: 16px; */
 }
@@ -130,8 +131,6 @@ header{
 .footer{
     /* height: 1200px; */
     padding-bottom: 20px;
-    background-color:#081B31;
-    color: white;
 }
 .note{
     color: red;
@@ -148,14 +147,13 @@ header{
     border-radius: 20px;
     height: auto;
 }
-
 .navbar-list ul li{
     padding: 6px;
     margin: 10px;
 }
 .navbar-list ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar-list ul li a:hover{
@@ -182,6 +180,7 @@ header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-align: center;
+    font-weight: bold;
 }
 @media only screen and (max-width: 1080px) {
     header{
@@ -198,9 +197,9 @@ header{
     .navbar ul li a{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-decoration: none;
-        color: white;
-        padding: 10px;
-        font-size: 14px;
+        color: black;
+        padding: 8px;
+        font-size: 12px;
         font-weight: bold;
     }
     .image img{
@@ -234,8 +233,8 @@ header{
     .footer{
         height: 1200px;
         padding-bottom: 20px;
-        background-color:#081B31;
-        color: white;
+        background-color: white;
+        color: black;
     }
     .qr img{
         width: 100%;
